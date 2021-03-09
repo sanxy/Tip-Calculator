@@ -15,6 +15,102 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Tip Calculator UI -->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/billTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/margin_start_end"-->
+<!--        android:layout_marginTop="@dimen/margin_top"-->
+<!--        android:text="@string/bill"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatEditText-->
+<!--        android:id="@+id/billEditText"-->
+<!--        android:layout_width="@dimen/edit_text_width"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="@dimen/margin_start_end"-->
+<!--        android:inputType="numberDecimal"-->
+<!--        android:maxLength="6"-->
+<!--        android:text="@string/default_amount"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/billTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/billTextView" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tipPercentageTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/margin_top"-->
+<!--        android:text="@string/tip_percent"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintStart_toStartOf="@id/billTextView"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/billTextView" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatEditText-->
+<!--        android:id="@+id/tipPercentageEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="number"-->
+<!--        android:maxLength="3"-->
+<!--        android:text="@string/default_tip_percent"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/tipPercentageTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/billEditText"-->
+<!--        app:layout_constraintStart_toStartOf="@id/billEditText"-->
+<!--        app:layout_constraintTop_toTopOf="@id/tipPercentageTextView" />-->
+
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tipAmountTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/margin_top"-->
+<!--        android:text="@string/tip_amount"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintStart_toStartOf="@id/tipPercentageTextView"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tipPercentageTextView" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tipAmountFinalResult"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/default_amount"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/tipAmountTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/tipPercentageEditText"-->
+<!--        app:layout_constraintStart_toStartOf="@id/tipPercentageEditText"-->
+<!--        app:layout_constraintTop_toTopOf="@id/tipAmountTextView" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/totalAmountTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/margin_top"-->
+<!--        android:text="@string/total_amount"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintStart_toStartOf="@id/tipAmountTextView"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tipAmountTextView" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/totalAmountFinalResult"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/default_amount"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/totalAmountTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/tipAmountFinalResult"-->
+<!--        app:layout_constraintStart_toStartOf="@id/tipAmountFinalResult"-->
+<!--        app:layout_constraintTop_toTopOf="@id/totalAmountTextView" />-->
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
